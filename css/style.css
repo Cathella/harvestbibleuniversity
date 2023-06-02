@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Nunito+Sans:wght@800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+}
+
+.navbar-brand img {
+  height: 90px;
+}
+
+header.header {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../img/hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+nav {
+  font-size: 20px;
+}
+
+.nav-link {
+  color: #FFFFFF;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.header-arrow {
+  position: relative;
+  height: 500px;
+}
+
+.scroll {
+  background-color: #F3A624;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  padding: 15px 16px;
+  position: absolute;
+  bottom: 50px;
+  cursor: pointer;
+}
+
+.tag-line {
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 0.4px;
+  color: #263895;
+}
+
+h1 {
+  font-family: 'Nunito Sans';
+  font-weight: 800;
+  font-size: 60px;
+  letter-spacing: 0.6px;
+  color: #002744;
+}
+
+.desc {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.desc a {
+  color: #002744;
+  text-decoration: none;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 50px 0;
+}
