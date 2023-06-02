@@ -92,5 +92,60 @@ h1 {
   width: 530px;
   height: 578px;
   border: 15px solid #FFFFFF;
-border-radius: 275px 0px 0px 275px;
+  border-radius: 275px 0px 0px 275px;
+}
+
+.qoute {
+  display: flex;
+  gap: 30px;
+  align-items: start;
+}
+
+.qoute div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.review {
+  font-size: 25px;
+  line-height: 50px;
+  color: #263895;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 15px;
+  color: #002744;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 15px;
+  color: #002744;
+}
+
+.key-links {
+  background: #EBEBEC;
+}
+
+.key-links-title {
+  font-family: 'Nunito Sans';
+  font-size: 60px;
+  line-height: 76px;
+  letter-spacing: 0.6px;
+  color: #002744;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.links a  {
+  font-size: 22px;
+  color: #263895;
+  text-decoration: none;
+  font-family: 'Nunito Sans';
 }
