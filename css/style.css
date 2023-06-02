@@ -74,3 +74,23 @@ h1 {
   gap: 30px;
   margin: 50px 0;
 }
+
+.img-1 {
+  background-image: url('../img/intro.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 530px;
+  height: 578px;
+  border: 15px solid #FFFFFF;
+  border-radius: 0px 275px 275px 0px;
+}
+
+.img-2 {
+  background-image: url('../img/stories.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 530px;
+  height: 578px;
+  border: 15px solid #FFFFFF;
+border-radius: 275px 0px 0px 275px;
+}
