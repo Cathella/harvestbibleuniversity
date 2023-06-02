@@ -49,7 +49,7 @@ nav {
   color: #263895;
 }
 
-h1 {
+.h1 {
   font-family: 'Nunito Sans';
   font-weight: 800;
   font-size: 60px;
@@ -129,23 +129,52 @@ h1 {
   background: #EBEBEC;
 }
 
-.key-links-title {
-  font-family: 'Nunito Sans';
-  font-size: 60px;
-  line-height: 76px;
-  letter-spacing: 0.6px;
-  color: #002744;
-}
-
 .links {
   display: flex;
   gap: 20px;
   flex-direction: column;
 }
 
-.links a  {
+.key-links .links a  {
   font-size: 22px;
   color: #263895;
   text-decoration: none;
   font-family: 'Nunito Sans';
+}
+
+footer {
+  background: #263895;
+  color: #FFFFFF;
+}
+
+.footer-logo img {
+  width: 300px;
+}
+
+.text-yellow {
+  color: #F3A624;
+}
+
+#background-yellow {
+  background: #F3A624;
+}
+
+.show-links {
+  display: flex;
+  gap: 30px;
+}
+
+.show-links a {
+  color: #263895;
+  background: #EBEBEC;
+  padding: 10px 40px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: 'Nunito Sans';
+}
+
+.bottom {
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
 }
