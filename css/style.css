@@ -177,4 +177,26 @@ footer {
   display: flex;
   gap: 50px;
   font-size: 20px;
+  justify-content: space-between;
+}
+
+.socials {
+  display: flex;
+  gap: 30px;
+}
+
+.socials img {
+  height: 25px;
+}
+
+.intro-bg {
+  background-image: url('../img/yellow-square.png');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.stories-bg {
+  background-image: url('../img/blue-square.png');
+  background-repeat: no-repeat;
+  background-position: right top;
 }

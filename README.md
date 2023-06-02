@@ -1,1 +1,1 @@
-# Harvest ible Univesity
+# Harvest Bible Univesity
