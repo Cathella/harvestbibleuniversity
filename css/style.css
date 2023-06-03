@@ -11,8 +11,15 @@
   height: 90px;
 }
 
-header.header {
+header.main-header {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../img/hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+header.inquire-header {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../img/inquire-hero.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -125,7 +132,7 @@ nav {
   color: #002744;
 }
 
-.key-links {
+.key-links, .aside {
   background: #EBEBEC;
 }
 
@@ -162,6 +169,7 @@ footer {
 .show-links {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .show-links a {
@@ -177,4 +185,93 @@ footer {
   display: flex;
   gap: 50px;
   font-size: 20px;
+  justify-content: space-between;
+}
+
+.socials {
+  display: flex;
+  gap: 30px;
+}
+
+.socials img {
+  height: 25px;
+}
+
+.intro-bg {
+  background-image: url('../img/yellow-square.png');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.stories-bg {
+  background-image: url('../img/blue-square.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+  gap: 40px;
+}
+
+.aside-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.aside-nav a {
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  color: #263895;
+}
+
+.aside-nav a.active {
+  color: #F3A624;
+}
+
+h3 {
+  font-weight: 700;
+  color: #002744;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 26px;
+}
+
+.main-content {
+  /* display: flex;
+  flex-direction: column; */
+  padding: 50px 40px;
+  /* gap: 40px; */
+}
+
+@media screen and (max-width: 992px) {
+  .intro-bg {
+    background-position: left top;
+  }
+
+  .stories-bg {
+    background-position: right center;
+    background-image: url('../img/yellow-square.png');
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stories-bg {
+    background-position: right bottom;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .img-1,
+  .img-2 {
+    width: 395px;
+    height: 430.77px;
+  }
+
+  .bottom {
+    flex-direction: column;
+  }
 }
