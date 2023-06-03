@@ -64,6 +64,26 @@ nav {
   color: #002744;
 }
 
+.h2 {
+  font-family: 'Nunito Sans';
+  font-weight: 800;
+  font-size: 35px;
+  color: #002744;
+}
+
+.p-top {
+  font-size: 20px;
+  line-height: 30px;
+  color: #002744;
+  font-weight: 700;
+}
+
+.p-bot {
+  font-size: 18px;
+  line-height: 28px;
+  color: #0B2742;
+}
+
 .desc {
   font-weight: 400;
   font-size: 20px;
@@ -245,6 +265,23 @@ h3 {
   flex-direction: column; */
   padding: 50px 40px;
   /* gap: 40px; */
+}
+
+.crumb-bread {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.crumb-bread a {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 16px;
+  color: #002744;
+}
+
+.crumb-bread span {
+  font-weight: 400;
 }
 
 @media screen and (max-width: 992px) {
