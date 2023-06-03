@@ -162,6 +162,7 @@ footer {
 .show-links {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .show-links a {
@@ -199,4 +200,33 @@ footer {
   background-image: url('../img/blue-square.png');
   background-repeat: no-repeat;
   background-position: right top;
+}
+
+@media screen and (max-width: 992px) {
+  .intro-bg {
+    background-position: left top;
+  }
+
+  .stories-bg {
+    background-position: right center;
+    background-image: url('../img/yellow-square.png');
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stories-bg {
+    background-position: right bottom;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .img-1,
+  .img-2 {
+    width: 395px;
+    height: 430.77px;
+  }
+
+  .bottom {
+    flex-direction: column;
+  }
 }
