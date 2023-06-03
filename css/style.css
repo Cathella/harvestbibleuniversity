@@ -11,8 +11,15 @@
   height: 90px;
 }
 
-header.header {
+header.main-header {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../img/hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+header.inquire-header {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../img/inquire-hero.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -125,7 +132,7 @@ nav {
   color: #002744;
 }
 
-.key-links {
+.key-links, .aside {
   background: #EBEBEC;
 }
 
@@ -200,6 +207,44 @@ footer {
   background-image: url('../img/blue-square.png');
   background-repeat: no-repeat;
   background-position: right top;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+  gap: 40px;
+}
+
+.aside-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.aside-nav a {
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  color: #263895;
+}
+
+.aside-nav a.active {
+  color: #F3A624;
+}
+
+h3 {
+  font-weight: 700;
+  color: #002744;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 26px;
+}
+
+.main-content {
+  /* display: flex;
+  flex-direction: column; */
+  padding: 50px 40px;
+  /* gap: 40px; */
 }
 
 @media screen and (max-width: 992px) {
