@@ -288,6 +288,10 @@ h3 {
   /* gap: 40px; */
 }
 
+.main-content h1 {
+  color: #263895;
+}
+
 .crumb-bread {
   display: flex;
   align-items: center;
