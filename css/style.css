@@ -362,4 +362,8 @@ label {
   .bottom {
     flex-direction: column;
   }
+
+  .main-content {
+    padding: 50px 20px;
+  }
 }
