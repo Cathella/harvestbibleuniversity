@@ -335,6 +335,15 @@ label {
   color: #002744;
 }
 
+.accordion,
+.accordion-button {
+  font-size: 20px;
+}
+
+.accordion-button {
+  font-weight: 800;
+}
+
 @media screen and (max-width: 992px) {
   .intro-bg {
     background-position: left top;
