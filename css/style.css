@@ -25,6 +25,20 @@ header.inquire-header {
   background-position: center center;
 }
 
+header.apply-header {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../img/intro.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+header.fees-header {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../img/fees.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 nav {
   font-size: 20px;
 }
@@ -62,6 +76,33 @@ nav {
   font-size: 60px;
   letter-spacing: 0.6px;
   color: #002744;
+}
+
+.h2 {
+  font-family: 'Nunito Sans';
+  font-weight: 800;
+  font-size: 35px;
+  color: #002744;
+}
+
+h5 {
+  font-family: 'Nunito Sans';
+  font-weight: 800;
+  font-size: 18px;
+  color: #002744;
+}
+
+.p-top {
+  font-size: 20px;
+  line-height: 30px;
+  color: #002744;
+  font-weight: 700;
+}
+
+.p-bot {
+  font-size: 20px;
+  line-height: 30px;
+  color: #0B2742;
 }
 
 .desc {
@@ -243,8 +284,55 @@ h3 {
 .main-content {
   /* display: flex;
   flex-direction: column; */
-  padding: 50px 40px;
+  padding: 50px 90px;
   /* gap: 40px; */
+}
+
+.main-content h1 {
+  color: #263895;
+}
+
+.crumb-bread {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.crumb-bread a {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 16px;
+  color: #002744;
+}
+
+.crumb-bread span {
+  font-weight: 400;
+}
+
+.main-content ul {
+  font-size: 20px;
+}
+
+.main-content ul li {
+  line-height: 30px;
+}
+
+.divider {
+  height: 6px;
+  width: 160px;
+  background: #F3A624;
+}
+
+.btn-color {
+  background: #263895;
+  color: #FFFFFF;
+}
+
+label {
+  font-size: 13px;
+  line-height: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #002744;
 }
 
 @media screen and (max-width: 992px) {
