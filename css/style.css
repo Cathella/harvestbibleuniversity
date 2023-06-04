@@ -71,6 +71,13 @@ nav {
   color: #002744;
 }
 
+h5 {
+  font-family: 'Nunito Sans';
+  font-weight: 800;
+  font-size: 18px;
+  color: #002744;
+}
+
 .p-top {
   font-size: 20px;
   line-height: 30px;
@@ -79,8 +86,8 @@ nav {
 }
 
 .p-bot {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 30px;
   color: #0B2742;
 }
 
@@ -263,7 +270,7 @@ h3 {
 .main-content {
   /* display: flex;
   flex-direction: column; */
-  padding: 50px 40px;
+  padding: 50px 90px;
   /* gap: 40px; */
 }
 
@@ -282,6 +289,32 @@ h3 {
 
 .crumb-bread span {
   font-weight: 400;
+}
+
+.main-content ul {
+  font-size: 20px;
+}
+
+.main-content ul li {
+  line-height: 30px;
+}
+
+.divider {
+  height: 6px;
+  width: 160px;
+  background: #F3A624;
+}
+
+.btn-color {
+  background: #263895;
+  color: #FFFFFF;
+}
+
+label {
+  font-size: 13px;
+  line-height: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #002744;
 }
 
 @media screen and (max-width: 992px) {
