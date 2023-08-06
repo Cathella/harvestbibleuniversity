@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Nunito+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Lora', serif;
+  /* font-family: 'Lora', serif; */
+  font-family: 'Signika Negative', sans-serif;
 }
 
 .navbar-brand img {
@@ -45,12 +47,13 @@ nav {
 
 .nav-link {
   color: #FFFFFF;
-  font-family: 'Nunito Sans', sans-serif;
+  /* font-family: 'Nunito Sans', sans-serif; */
+  font-family: Mirador,sans-serif;
 }
 
 .header-arrow {
   position: relative;
-  height: 500px;
+  height: 300px;
 }
 
 .scroll {
@@ -64,14 +67,17 @@ nav {
 }
 
 .tag-line {
-  font-weight: 700;
-  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
   letter-spacing: 0.4px;
   color: #263895;
+  font-family: Mirador,sans-serif;
 }
 
 .h1 {
-  font-family: 'Nunito Sans';
+  /* font-family: 'Nunito Sans'; */
+  font-family: Mirador,sans-serif;
   font-weight: 800;
   font-size: 60px;
   letter-spacing: 0.6px;
@@ -79,14 +85,16 @@ nav {
 }
 
 .h2 {
-  font-family: 'Nunito Sans';
+  /* font-family: 'Nunito Sans'; */
+  font-family: Mirador,sans-serif;
   font-weight: 800;
   font-size: 35px;
   color: #002744;
 }
 
 h5 {
-  font-family: 'Nunito Sans';
+  /* font-family: 'Nunito Sans'; */
+  font-family: Mirador,sans-serif;
   font-weight: 800;
   font-size: 18px;
   color: #002744;
@@ -101,7 +109,7 @@ h5 {
 
 .p-bot {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 35px;
   color: #0B2742;
 }
 
@@ -219,7 +227,9 @@ footer {
   padding: 10px 40px;
   border-radius: 30px;
   text-decoration: none;
-  font-family: 'Nunito Sans';
+  /* font-family: 'Nunito Sans'; */
+  font-family: Mirador,sans-serif;
+  font-weight: bold;
 }
 
 .bottom {
@@ -264,10 +274,12 @@ footer {
 }
 
 .aside-nav a {
-  font-family: 'Nunito Sans', sans-serif;
+  /* font-family: 'Nunito Sans', sans-serif; */
+  font-family: Mirador,sans-serif;
   text-decoration: none;
   font-size: 18px;
   color: #263895;
+  font-weight: bold;
 }
 
 .aside-nav a.active {
@@ -277,7 +289,8 @@ footer {
 h3 {
   font-weight: 700;
   color: #002744;
-  font-family: 'Nunito Sans', sans-serif;
+  /* font-family: 'Nunito Sans', sans-serif; */
+  font-family: Mirador,sans-serif;
   font-size: 26px;
 }
 
@@ -329,9 +342,9 @@ h3 {
 }
 
 label {
-  font-size: 13px;
+  font-size: 16px;
   line-height: 20px;
-  font-family: 'Nunito Sans', sans-serif;
+  /* font-family: 'Nunito Sans', sans-serif; */
   color: #002744;
 }
 
