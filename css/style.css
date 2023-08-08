@@ -24,6 +24,64 @@ header.main-header {
   background-position: center center;
 }
 
+.story-1 {
+  position: relative;
+  background-image: url('../img/inquire-hero.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+}
+
+.story-2 {
+  position: relative;
+  background-image: url('../img/fees.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+}
+
+.story-3 {
+  position: relative;
+  background-image: url('../img/stories.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+}
+
+.story {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 10px;
+}
+
+.story a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bg-grey {
+  background: #ebebec;
+}
+
+.bg-yellow {
+  background: #F3A624;
+}
+
+.c-list {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 35px;
+  font-style: italic;
+  font-family: Mirador,sans-serif;
+  font-weight: bold;
+}
+
+.c-list span {
+  font-family: Mirador,sans-serif;
+}
+
 header.apply-header,
 header.fees-header,
 header.inquire-header {
