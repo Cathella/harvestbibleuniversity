@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Nunito+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Lora', serif;
+  /* font-family: 'Lora', serif; */
+  font-family: 'Signika Negative', sans-serif;
 }
 
 .navbar-brand img {
   height: 90px;
+}
+
+.txt-shadow {
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 header.main-header {
@@ -18,25 +24,10 @@ header.main-header {
   background-position: center center;
 }
 
+header.apply-header,
+header.fees-header,
 header.inquire-header {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../img/inquire-hero.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-header.apply-header {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../img/intro.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-header.fees-header {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../img/fees.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: #263895;
 }
 
 nav {
@@ -45,12 +36,13 @@ nav {
 
 .nav-link {
   color: #FFFFFF;
-  font-family: 'Nunito Sans', sans-serif;
+  /* font-family: 'Nunito Sans', sans-serif; */
+  font-family: Mirador,sans-serif;
 }
 
 .header-arrow {
   position: relative;
-  height: 500px;
+  height: 300px;
 }
 
 .scroll {
@@ -64,51 +56,80 @@ nav {
 }
 
 .tag-line {
-  font-weight: 700;
-  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
   letter-spacing: 0.4px;
   color: #263895;
+  font-family: Mirador,sans-serif;
 }
 
 .h1 {
-  font-family: 'Nunito Sans';
+  /* font-family: 'Nunito Sans'; */
+  font-family: Mirador,sans-serif;
   font-weight: 800;
   font-size: 60px;
   letter-spacing: 0.6px;
   color: #002744;
 }
 
+.h1 span {
+  /* font-family: 'Nunito Sans'; */
+  font-family: Mirador,sans-serif;
+  font-weight: 800;
+  font-size: 60px;
+  letter-spacing: 0.6px;
+}
+
 .h2 {
-  font-family: 'Nunito Sans';
+  /* font-family: 'Nunito Sans'; */
+  font-family: Mirador,sans-serif;
   font-weight: 800;
   font-size: 35px;
   color: #002744;
 }
 
 h5 {
-  font-family: 'Nunito Sans';
+  /* font-family: 'Nunito Sans'; */
+  font-family: Mirador,sans-serif;
   font-weight: 800;
   font-size: 18px;
   color: #002744;
 }
 
+.cta-btn {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background: #F3A624;
+  padding: 12px 35px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-family: Mirador,sans-serif;
+  font-weight: bold;
+}
+
 .p-top {
-  font-size: 20px;
-  line-height: 30px;
-  color: #002744;
-  font-weight: 700;
+  font-size: 27px;
+  line-height: 41px;
+  color: #263895;
+  font-weight: bold;
 }
 
 .p-bot {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 27px;
+  line-height: 41px;
   color: #0B2742;
+}
+
+.txt-italics {
+  font-style: italic;
 }
 
 .desc {
   font-weight: 400;
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 27px;
+  line-height: 41px;
 }
 
 .desc a {
@@ -120,7 +141,7 @@ h5 {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin: 50px 0;
+  margin: 100px 0;
 }
 
 .img-1 {
@@ -131,9 +152,10 @@ h5 {
   height: 578px;
   border: 15px solid #FFFFFF;
   border-radius: 0px 275px 275px 0px;
+  margin-top: 50px;
 }
 
-.img-2 {
+/* .img-2 {
   background-image: url('../img/stories.jpg');
   background-position: center;
   background-size: cover;
@@ -141,7 +163,7 @@ h5 {
   height: 578px;
   border: 15px solid #FFFFFF;
   border-radius: 275px 0px 0px 275px;
-}
+} */
 
 .qoute {
   display: flex;
@@ -219,7 +241,9 @@ footer {
   padding: 10px 40px;
   border-radius: 30px;
   text-decoration: none;
-  font-family: 'Nunito Sans';
+  /* font-family: 'Nunito Sans'; */
+  font-family: Mirador,sans-serif;
+  font-weight: bold;
 }
 
 .bottom {
@@ -238,17 +262,19 @@ footer {
   height: 25px;
 }
 
-.intro-bg {
+/* .intro-bg {
   background-image: url('../img/yellow-square.png');
   background-repeat: no-repeat;
   background-position: left bottom;
-}
+} */
 
-.stories-bg {
+/* .stories-bg {
   background-image: url('../img/blue-square.png');
   background-repeat: no-repeat;
   background-position: right top;
-}
+} */
+
+
 
 .aside {
   display: flex;
@@ -264,10 +290,12 @@ footer {
 }
 
 .aside-nav a {
-  font-family: 'Nunito Sans', sans-serif;
+  /* font-family: 'Nunito Sans', sans-serif; */
+  font-family: Mirador,sans-serif;
   text-decoration: none;
   font-size: 18px;
   color: #263895;
+  font-weight: bold;
 }
 
 .aside-nav a.active {
@@ -277,7 +305,8 @@ footer {
 h3 {
   font-weight: 700;
   color: #002744;
-  font-family: 'Nunito Sans', sans-serif;
+  /* font-family: 'Nunito Sans', sans-serif; */
+  font-family: Mirador,sans-serif;
   font-size: 26px;
 }
 
@@ -310,11 +339,15 @@ h3 {
 }
 
 .main-content ul {
-  font-size: 20px;
+  font-size: 27px;
 }
 
 .main-content ul li {
-  line-height: 30px;
+  line-height: 41px;
+}
+
+table {
+  font-size: 20px;
 }
 
 .divider {
@@ -329,15 +362,23 @@ h3 {
 }
 
 label {
-  font-size: 13px;
-  line-height: 20px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
   color: #002744;
+}
+
+/* .navbar-toggler {
+  background: white;
+} */
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  background-color: transparent;
+  border: none;
 }
 
 .accordion,
 .accordion-button {
-  font-size: 20px;
+  font-size: 27px;
 }
 
 .accordion-button {
@@ -345,14 +386,7 @@ label {
 }
 
 @media screen and (max-width: 992px) {
-  .intro-bg {
-    background-position: left top;
-  }
 
-  .stories-bg {
-    background-position: right center;
-    background-image: url('../img/yellow-square.png');
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -374,5 +408,14 @@ label {
 
   .main-content {
     padding: 50px 20px;
+  }
+
+  .h1 {
+    font-size: 40px;
+    line-height: 54px;
+  }
+
+  .p-top, .p-bot, .desc {
+    font-size: 20px;
   }
 }
