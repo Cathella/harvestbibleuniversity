@@ -174,8 +174,9 @@ nav {
   /* font-family: 'Nunito Sans'; */
   font-family: Mirador,sans-serif;
   font-weight: 800;
-  font-size: 35px;
+  font-size: 40px;
   color: #002744;
+  font-style: italic;
 }
 
 h5 {
@@ -511,5 +512,15 @@ label {
 
   .p-top, .p-bot, .desc {
     font-size: 20px;
+  }
+
+  .intr-header {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .h1-custom,
+  .h1-custom span {
+    font-size: 45px;
   }
 }
