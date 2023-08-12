@@ -120,7 +120,9 @@ header.main-header {
 header.apply-header,
 header.fees-header,
 header.inquire-header {
-  background: #263895;
+  background: url(../img/wavy-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav {
