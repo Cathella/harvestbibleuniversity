@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Nunito+Sans:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;700&display=swap');
+
+@font-face {
+  font-family: 'Mirador';
+  src:
+    url('../fonts/Rene\ Bieder\ -\ Mirador\ Bold\ DEMO.otf') format('opentype');
+}
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* font-family: 'Lora', serif; */
   font-family: 'Signika Negative', sans-serif;
 }
 
@@ -24,10 +28,104 @@ header.main-header {
   background-position: center center;
 }
 
+.story-1 {
+  position: relative;
+  background-image: url('../img/inquire-hero.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+}
+
+.story-2 {
+  position: relative;
+  background-image: url('../img/fees.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+}
+
+.story-3 {
+  position: relative;
+  background-image: url('../img/stories.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+}
+
+.story {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 10px;
+}
+
+.story a {
+  font-size: 18px;
+}
+
+.story h3 {
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.bg-grey {
+  background: #ebebec;
+  padding-bottom: 100px;
+}
+
+.text-blue {
+  color: #263895;
+}
+
+.bg-yellow {
+  background: #37489F;
+}
+
+.countries, .locations {
+  position: relative;
+}
+
+.locations {
+  /* margin-bottom: 130px; */
+  /* display: inline-block; */
+  animation: rotate 10s linear infinite;
+}
+
+.locations img {
+  position: absolute;
+  top: -108px;
+  left: 42%;
+  transform-origin: center;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.c-list {padding-top: 130px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 35px;
+  font-style: italic;
+  font-family: Mirador,sans-serif;
+  font-weight: bold;
+}
+
+.c-list span {
+  font-family: Mirador,sans-serif;
+}
+
 header.apply-header,
 header.fees-header,
 header.inquire-header {
-  background: #263895;
+  background: url(../img/wavy-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav {
@@ -36,7 +134,6 @@ nav {
 
 .nav-link {
   color: #FFFFFF;
-  /* font-family: 'Nunito Sans', sans-serif; */
   font-family: Mirador,sans-serif;
 }
 
@@ -65,7 +162,6 @@ nav {
 }
 
 .h1 {
-  /* font-family: 'Nunito Sans'; */
   font-family: Mirador,sans-serif;
   font-weight: 800;
   font-size: 60px;
@@ -73,24 +169,36 @@ nav {
   color: #002744;
 }
 
+.h1-custom {
+  font-weight: bold;
+  font-size: 80px;
+  text-transform: uppercase;
+  letter-spacing: -0.6px;
+}
+
 .h1 span {
-  /* font-family: 'Nunito Sans'; */
   font-family: Mirador,sans-serif;
   font-weight: 800;
   font-size: 60px;
+  letter-spacing: 0.6px;
+}
+
+.h1-custom span {
+  text-transform: none;
+  font-family: Mirador,sans-serif;
+  font-size: 95px;
   letter-spacing: 0.6px;
 }
 
 .h2 {
-  /* font-family: 'Nunito Sans'; */
   font-family: Mirador,sans-serif;
   font-weight: 800;
-  font-size: 35px;
+  font-size: 40px;
   color: #002744;
+  font-style: italic;
 }
 
 h5 {
-  /* font-family: 'Nunito Sans'; */
   font-family: Mirador,sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -124,6 +232,11 @@ h5 {
 
 .txt-italics {
   font-style: italic;
+}
+
+.intr-header {
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .desc {
@@ -241,7 +354,6 @@ footer {
   padding: 10px 40px;
   border-radius: 30px;
   text-decoration: none;
-  /* font-family: 'Nunito Sans'; */
   font-family: Mirador,sans-serif;
   font-weight: bold;
 }
@@ -268,11 +380,11 @@ footer {
   background-position: left bottom;
 } */
 
-/* .stories-bg {
-  background-image: url('../img/blue-square.png');
-  background-repeat: no-repeat;
-  background-position: right top;
-} */
+.stories-bg {
+  background-image: url('../img/noisebg.png');
+  background-repeat: repeat;
+  /* background-position: right top; */
+}
 
 
 
@@ -290,7 +402,6 @@ footer {
 }
 
 .aside-nav a {
-  /* font-family: 'Nunito Sans', sans-serif; */
   font-family: Mirador,sans-serif;
   text-decoration: none;
   font-size: 18px;
@@ -305,16 +416,12 @@ footer {
 h3 {
   font-weight: 700;
   color: #002744;
-  /* font-family: 'Nunito Sans', sans-serif; */
   font-family: Mirador,sans-serif;
   font-size: 26px;
 }
 
 .main-content {
-  /* display: flex;
-  flex-direction: column; */
   padding: 50px 90px;
-  /* gap: 40px; */
 }
 
 .main-content h1 {
@@ -417,5 +524,15 @@ label {
 
   .p-top, .p-bot, .desc {
     font-size: 20px;
+  }
+
+  .intr-header {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .h1-custom,
+  .h1-custom span {
+    font-size: 45px;
   }
 }
